@@ -1,7 +1,24 @@
 aid: fleetsmith
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fleetsmith.png
 name: Fleetsmith
-description: Fleetsmith is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Fleetsmith was a San Francisco-based startup (founded 2016) that provided cloud-based Apple
+  device management (MDM) for IT teams — automated zero-touch setup, patching, app deployment, and
+  security enforcement across Macs, iPhones, iPads, and Apple TVs. Backed by Menlo Ventures and others,
+  Fleetsmith was acquired by Apple in June 2020; Apple subsequently discontinued the standalone product
+  and folded its capabilities into Apple Business Essentials. The company no longer operates an
+  independent developer program or public API, and fleetsmith.com now redirects to Apple Business
+  Essentials. This profile is retained for network history.
 url: https://raw.githubusercontent.com/api-evangelist/fleetsmith/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,29 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: apple
+x-acquired-date: '2020-06'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Apple
+- Device Management
+- MDM
+- IT
+- Endpoint Management
+- Security
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
